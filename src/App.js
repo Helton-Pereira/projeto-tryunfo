@@ -18,6 +18,7 @@ class App extends React.Component {
       hasTrunfo: false,
       isSaveButtonDisabled: true,
       arrayOfCards: [],
+      cardDelete: false,
     };
   }
 
@@ -122,6 +123,7 @@ class App extends React.Component {
             cardAttr3={ e.cardAttr3 }
             cardRare={ e.cardRare }
             cardTrunfo={ e.cardTrunfo }
+            cardDelete={ e.cardDelete }
           />))
         }
       </form>
